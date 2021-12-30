@@ -1,7 +1,7 @@
 CKGAT
 =====
 Hi! You are welcome to visit here!<br>
-This library will be used to release the source code of CKGAT, a newly proposed model for knowledge graph-based top-N recommendation. The research paper of CKGAT has been submitted to an International journal. CKGAT’s code will ***not*** be released immediately (postponed until the paper is accepted and published). <br>
+This library will be used to release the source code of CKGAT, a newly proposed model for knowledge graph-based top-N recommendation. The research paper of CKGAT has been submitted to an International journal. ***PLEASE NOTE THAT*** CKGAT’s code will ***not*** be released immediately (postponed until the paper is accepted and published). <br>
 <br>
 CKGAT stands for Collaborative Knowledge-aware Graph Attention Network for top-N Recommendation. Four real-world datasets (Last.FM, Book-Crossing, MovieLens 20M, and 79 Dianping-Food) were used to empirically evaluate the performance of CKGAT, and the experimental results show that CKGAToverall outperforms three baseline methods and six state-of-the-art propagation-based recommendation methods in terms of recommendation accuracy, and outperforms four representative propagation-based recommendation methods in terms of recommendation diversity. The information about the three baseline methods and the six state-of-the-art methods are given below.
 
@@ -27,3 +27,19 @@ Comparison Models
 * **CKAN** belongs to the propagation-based recommendation methods, which uses a heterogeneous propagation strategy and an attention network to learn ripple set embeddings, thereby generating user embeddings and item embeddings.<br>
 *`Paper:`* Wang, Z.; Lin, G.; Tan, H.; Chen, Q.; Liu, X. CKAN: Collaborative Knowledge-aware Attentive Network for Recommender Systems. In Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval, Virtual Event, China, 25–30 July 2020; pp. 219–228. https://doi.org/10.1145/3397271.3401141<br>
 *`Code:`* https://github.com/weberrr/CKAN
+
+* **KGCN** belongs to the propagation-based recommendation methods, which applies the graph convolutional network to the knowledge graph to aggregate neighborhood information to refine item representations.<br>
+*`Paper:`* Wang, H.; Zhao, M.; Xie, X.; Li, W.; Guo, M. Knowledge Graph Convolutional Networks for Recommender Systems. In Proceedings of 28th The World Wide Web Conference, San Francisco, CA, USA, May 13-17, 2019; pp. 3307-3313. https://doi.org/10.1145/3308558.3313417<br>
+*`Code:`* https://github.com/hwwang55/KGCN
+
+* **KGNN-LS** belongs to the propagation-based recommendation methods, which adds a label smoothing mechanism to the KGCN framework to propagate user interaction labels, so as to provide effective recommendations.<br>
+*`Paper:`* Wang, H.; Zhang, F.; Zhang, M.; Leskovec, J.; Zhao, M.; Li, W.; Wang, Z. Knowledge-aware Graph Neural Networks with Label Smoothness Regularization for Recommender Systems. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, Anchorage, AK, USA, 4–8 August 2019; pp. 968–977. https://doi.org/10.1145/3292500.3330836<br>
+*`Code:`* https://github.com/hwwang55/KGNN-LS
+
+* **KGAT** belongs to the propagation-based recommendation methods, which applies the graph attention network to the collaborative knowledge graph to learn user representations and item representations.<br>
+*`Paper:`* Wang, X.; He, X.; Cao, Y.; Liu, M.; Chua, T.-S. KGAT: Knowledge Graph Attention Network for Recommendation. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, Anchorage, AK, USA, 4–8 August 2019; pp. 950–958. https://doi.org/10.1145/3292500.3330989<br>
+*`Code:`* https://github.com/xiangwang1223/knowledge_graph_attention_network/tree/master/Model
+
+* **KGIN** is currently the state-of-the-art propagation-based recommendation method. It uses auxiliary item knowledge to explore the users’ intention behind the user-item interactions, thus refining the representations of users and items.<br>
+*`Paper:`* Wang, X.; He, X.; Cao, Y.; Liu, M.; Chua, T.-S. KGAT: Knowledge Graph Attention Network for Recommendation. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, Anchorage, AK, USA, 4–8 August 2019; pp. 950–958. https://doi.org/10.1145/3292500.3330989<br>
+*`Code:`* https://github.com/huangtinglin/Knowledge_Graph_based_intent_Network
