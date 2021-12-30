@@ -13,7 +13,7 @@ Comparison Models
 *`Code:`* https://github.com/xiangwang1223/knowledge_graph_attention_network/tree/master/Model
 
 * **CKE** is a typical knowledge graph embedding-based recommendation method, which combines the structural knowledge, textual knowledge and visual knowledge of items to learn item representations.<br>
-*`Paper:`* Rendle, S.; Freudenthaler, C.; Gantner, Z.; Schmidt-Thieme, L. BPR: Bayesian Personalized Ranking from Implicit Feedback. In 835 Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence, Montreal, QC, Canada, 18–21 June 2009; pp. 452–461. 836 https://arxiv.org/abs/1205.2618<br>
+*`Paper:`* Rendle, S.; Freudenthaler, C.; Gantner, Z.; Schmidt-Thieme, L. BPR: Bayesian Personalized Ranking from Implicit Feedback. In Proceedings of the 25th Conference on Uncertainty in Artificial Intelligence, Montreal, QC, Canada, 18–21 June 2009; pp. 452–461. 836 https://arxiv.org/abs/1205.2618<br>
 *`Code:`* https://github.com/xiangwang1223/knowledge_graph_attention_network/tree/master/Model
 
 * **KPRN** is a typical connection-based recommendation method, which generates path representations by combining the semantics of entities and relations and distinguishes the importance of different paths, thereby capturing user preferences.<br>
