@@ -11,27 +11,25 @@ Four real-world datasets (Last.FM, Book-Crossing, MovieLens 20M, and Dianping-Fo
 
 Experimental Datasets
 ------
-* **Last.FM** (https://grouplens.org/datasets/hetrec-2011/)**.** This dataset [1] contains social networking, tagging, and music artist listening information from a set of 2,000 users from Last.fm online music system. Instead of the original dataset, our experiments directly used the preprocessed Last.FM dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [2]
+* **Last.FM** (https://files.grouplens.org/datasets/hetrec2011/)**.** This dataset contains social networking, tagging, and music artist listening information from a set of 2,000 users from Last.fm online music system. Instead of the original dataset, our experiments directly used the preprocessed Last.FM dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [1]
 
-* **Book-Crossing** (http://www2.informatik.uni-freiburg.de/~cziegler/BX/)**.** This dataset [3] collects explicit ratings (ranging from 0 to 10) from different readers about various books in the book-crossing community. Instead of the original dataset, our experiments directly used the preprocessed Book-Crossing dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [2]
+* **Book-Crossing** (http://www2.informatik.uni-freiburg.de/~cziegler/BX/)**.** This dataset [2] collects explicit ratings (ranging from 0 to 10) from different readers about various books in the book-crossing community. Instead of the original dataset, our experiments directly used the preprocessed Book-Crossing dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [1]
 
-* **MovieLens 20M** (https://grouplens.org/datasets/movielens/20m/)**.** This dataset [4] is a widely used benchmark dataset in movie recommendation, which contains approximately 20 million explicit user ratings for movies (ranging from 1 to 5) on the MovieLens website. Instead of the original dataset, our experiments directly used the preprocessed MovieLens 20M dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [2]
+* **MovieLens 20M** (https://grouplens.org/datasets/movielens/20m/)**.** This dataset [3] is a widely used benchmark dataset in movie recommendation, which contains approximately 20 million explicit user ratings for movies (ranging from 1 to 5) on the MovieLens website. Instead of the original dataset, our experiments directly used the preprocessed MovieLens 20M dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [1]
 
-* **Dianping-Food** (https://www.dianping.com/)**.** This dataset is provided by Meituan-Dianping Group (Dianping.com), which contains 10 million interaction data (including clicks and purchases, etc.) between approximately 2 million users and 1,000 restaurants. Instead of the original dataset, our experiments directly used the preprocessed Dianping-Food dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/hwwang55/KGNN-LS/tree/master/data/restaurant] by H. Wang et al. [5]
+* **Dianping-Food** (https://www.dianping.com/)**.** This dataset is provided by Meituan-Dianping Group (Dianping.com), which contains 10 million interaction data (including clicks and purchases, etc.) between approximately 2 million users and 1,000 restaurants. Instead of the original dataset, our experiments directly used the preprocessed Dianping-Food dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/hwwang55/KGNN-LS/tree/master/data/restaurant] by H. Wang et al. [4]
 
 References:
 
-[1] Cantador, I.; Brusilovsky, P.; Kuflik, T. Second workshop on information heterogeneity and fusion in recommender systems (HetRec2011). In Proceedings of the 2011 ACM Conference on Recommender Systems, Chicago, IL, USA, 23-27 October 2011. pp. 387-388. https://doi.org/10.1145/2043932.2044016
-
-[2] Wang, Z.; Lin, G.; Tan, H.; Chen, Q.; Liu, X. CKAN: Collaborative Knowledge-aware Attentive Network for Recommender
+[1] Wang, Z.; Lin, G.; Tan, H.; Chen, Q.; Liu, X. CKAN: Collaborative Knowledge-aware Attentive Network for Recommender
 Systems. In Proceedings of the 43rd International ACM SIGIR conference on research and development in Information Retrieval,
 Virtual Event, China, 25–30 July 2020; pp. 219–228. https://doi.org/10.1145/3397271.3401141
 
-[3] Ziegler, C.-N.; McNee, S.M.; Konstan, J.A.; Lausen, G. Improving recommendation lists through topic diversification. In Proceedings of the 14th international conference on World Wide Web, Chiba, Japan, 10-14 May 2005. pp. 22–32. https://doi.org/10.1145/1060745.1060754
+[2] Ziegler, C.-N.; McNee, S.M.; Konstan, J.A.; Lausen, G. Improving recommendation lists through topic diversification. In Proceedings of the 14th international conference on World Wide Web, Chiba, Japan, 10-14 May 2005. pp. 22–32. https://doi.org/10.1145/1060745.1060754
 
-[4] Harper, F.M.; Konstan, J.A. The MovieLens Datasets: History and Context. *ACM Trans. Interact. Intell. Syst.* **2016**, *5*, 1-19. https://doi.org/10.1145/2827872
+[3] Harper, F.M.; Konstan, J.A. The MovieLens Datasets: History and Context. *ACM Trans. Interact. Intell. Syst.* **2016**, *5*, 1-19. https://doi.org/10.1145/2827872
 
-[5] Wang, H.; Zhang, F.; Zhang, M.; Leskovec, J.; Zhao, M.; Li, W.; Wang, Z. Knowledge-aware Graph Neural Networks
+[4] Wang, H.; Zhang, F.; Zhang, M.; Leskovec, J.; Zhao, M.; Li, W.; Wang, Z. Knowledge-aware Graph Neural Networks
 with Label Smoothness Regularization for Recommender Systems. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining, Anchorage, AK, USA, 4–8 August 2019; pp. 968–977. https://doi.org/10.1145/3292500.3330836
 
 Comparison Methods
