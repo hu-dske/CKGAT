@@ -67,5 +67,5 @@ Comparison Methods
 *`Code:`* https://github.com/xiangwang1223/knowledge_graph_attention_network/tree/master/Model
 
 * **KGIN** is currently the state-of-the-art propagation-based recommendation method. It uses auxiliary item knowledge to explore the users’ intention behind the user-item interactions, thus refining the representations of users and items.<br>
-*`Paper:`*Wang, X.; Huang, T.; Wang, D.; Yuan, Y.; Liu, Z.; He, X.; Chua, T.-S. Learning Intents behind Interactions with Knowledge Graph for Recommendation. WWW '21: The Web Conference 2021, Virtual Event/Ljubljana, Slovenia, 19–23 April 2021; pp. 878–887. https://doi.org/10.1145/3442381.3450133<br>
+*`Paper:`*Wang, X.; Huang, T.; Wang, D.; Yuan, Y.; Liu, Z.; He, X.; Chua, T.-S. Learning Intents behind Interactions with Knowledge Graph for Recommendation.WWW '21: The Web Conference 2021, Virtual Event/Ljubljana, Slovenia, 19–23 April 2021; pp. 878–887. https://doi.org/10.1145/3442381.3450133<br>
 *`Code:`* https://github.com/huangtinglin/Knowledge_Graph_based_intent_Network
