@@ -11,7 +11,7 @@ Four real-world datasets (Last.FM, Book-Crossing, MovieLens 20M, and Dianping-Fo
 
 Experimental Datasets
 ------
-* **Last.FM** (https://files.grouplens.org/datasets/hetrec2011/)**.** This dataset contains social networking, tagging, and music artist listening information from a set of 2,000 users from Last.fm online music system. Instead of the original dataset, our experiments directly used the preprocessed Last.FM dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [1]
+* **Last.FM** (https://grouplens.org/datasets/hetrec-2011/)**.** This dataset contains social networking, tagging, and music artist listening information from a set of 2,000 users from Last.fm online music system. Instead of the original dataset, our experiments directly used the preprocessed Last.FM dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [1]
 
 * **Book-Crossing** (http://www2.informatik.uni-freiburg.de/~cziegler/BX/)**.** This dataset [2] collects explicit ratings (ranging from 0 to 10) from different readers about various books in the book-crossing community. Instead of the original dataset, our experiments directly used the preprocessed Book-Crossing dataset and its corresponding knowledge graph released on GitHub [available at https://github.com/weberrr/CKAN/tree/master/data] by Z. Wang et al. [1]
 
