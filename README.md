@@ -1,4 +1,4 @@
-CKGAT
+CKGAT 
 =====
 Hi! You are welcome to visit here!<br>
 This repository will be used to release the code of CKGAT, a newly proposed method for knowledge graph-based top-N recommendation by our research team. **CKGAT** stands for the **Collaborative Knowledge-aware Graph Attention Network** for top-N Recommendation, which can learn refined ripple set embeddings, thereby generating accurate user embeddings and item embeddings, so as to accurately capture users’ potential interests in items. To the best of our knowledge, it is the first method that uses the knowledge-aware graph attention network to learn the refined ripple set embeddings. The research paper of CKGAT has been published in the open access international journal Applied Sciences, which is available at: https://www.mdpi.com/2076-3417/12/3/1669. The citation format in the MDPI and ACS Style is as follows: 
